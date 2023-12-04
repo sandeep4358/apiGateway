@@ -6,8 +6,8 @@ spring:
   application:
     name: API-GATEWAY
   main:
-    web-application-type: REACTIVE
     allow-bean-definition-overriding: true
+
 
   cloud:
     gateway:
