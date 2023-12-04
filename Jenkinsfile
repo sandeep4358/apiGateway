@@ -22,8 +22,8 @@ pipeline{
                     withDockerRegistry(credentialsId: 'a77c722e-a2ea-45c3-b4e3-6100d91bcb67') {
 
                     // some block
-                    sh 'docker image build -t sandeep022/apigateway:v1 .'
-                    sh 'docker push sandeep022/apigateway:v1'
+                    sh 'docker image build -t sandeep022/apigateway:v2 .'
+                    sh 'docker push sandeep022/apigateway:v2'
                 }
                 }
             }
